@@ -9,7 +9,8 @@
 {-# LANGUAGE UndecidableInstances #-}
 
 module Data.Vinyl.Aeson
-  (RecJSON(..))
+  ( RecJSON(..)
+  , FieldsAll)
   where
 
 import Data.Aeson
